@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: black;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+.card{
+  background-color: blue;
+  width: 45%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  border:solid black;
+}
+.card div:hover{
+  background-color: rgb(233, 230, 230);
+}
+
+.card div{
+  display: flex;
+  padding-left: 80px;
+  background-color: white;
+}
+.card div p{
+  margin-left: 50px;
+}
+
